@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Live University</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<nav style="display: -webkit-box"> <!-- navbar content here  -->
+    <a href="#" data-target="slide-out" class="sidenav-trigger" style="display: block !important;"><i class="material-icons">menu</i></a>
+    <a href="#" data-target="slide-out" class="" style="display: block !important;">
+        <img src="img/logo.png" style="height: 2.5em; margin-top: 0.8em"/>
+
+    </a>
+    <ul style="position: absolute; right: 10em; display: -webkit-box;">
+        <a href="#" data-target="" class="" style="display: -webkit-box !important;"><i class="material-icons" style="margin-top: 0.2em;">people</i><span>Colaboradores</span></a>
+        <a href="#" data-target="" class="" style="display: -webkit-box !important;"><i class="material-icons" style="margin-top: 0.2em;">ballot</i><span>Cursos</span></a>
+        <a href="#" data-target="" class="" style="display: -webkit-box !important; right: 3em;"><i class="material-icons" style="margin-top: 0.2em;">clear</i><span>Sair</span></a>
+
+    </ul>
+
+</nav>
+
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="img/office.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="img/dany.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">account_circle</i>Minha Conta</a></li>
+    <li><a href="#!"><i class="material-icons">people</i>Colaboradores</a></li>
+    <li><a href="#!"><i class="material-icons">ballot</i>Cursos</a></li>
+    <li><a href="#!"><i class="material-icons">settings</i>Configurações</a></li>
+
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+
+
+<div class="section no-pad-bot" id="index-banner">
+
+
+    <div class="container">
+        <div class="section">
+            <ul class="collection content-cursos">
+                <div class="row" style="margin-left: 2em">
+                    <h4>14 Práticas de Compras</h4>
+                    <h6>03 Agosto 2019</h6>
+                </div>
+
+                <div class="row options" style="display: -webkit-box;">
+                    <div class="" style="margin-top: 0; margin-left: 2em !important; margin-right: 1em;">
+                        <a id="divCheck" class="waves-effect waves-light btn-small btn-warning" style="display: flex;">  <i class="material-icons" style="margin-right: 10px">list</i> Checklist</a>
+                    </div>
+                    <div class="" >
+
+                        <a class="waves-effect waves-light btn-small btn-info" style="display: flex;">  <i class="material-icons" style="margin-right: 10px">cloud_download</i> Baixar Conteúdo</a>
+                    </div>
+                </div>
+                <div class="row checklist transform " id="checklist" >
+                    <p>
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Instrução 1</span><br>
+                            <span style="margin-left: 3em">Observação sobre Instrução 1</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Instrução 2</span><br>
+                            <span style="margin-left: 3em">Observação sobre Instrução 2</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Instrução 3</span><br>
+                            <span style="margin-left: 3em">Observação sobre Instrução 3</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Instrução 4</span><br>
+                            <span style="margin-left: 3em">Observação sobre Instrução 34</span>
+                        </label>
+                    </p>
+
+                </div>
+                <hr>
+
+                <div class="row" style="margin-left: 2em">
+                    <h6>Colaboradores</h6>
+                </div>
+
+                <ul class="collection" style="margin-left: 2em;margin-right: 2em;">
+
+                    <li class="collection-item avatar curso">
+
+                        <div class="col s3">
+                            <h6 class="title-curso">Paula Mayumi</h6>
+                            <span>paula.konno@febracorp.org.br </span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Cargo :</h6>
+                            <span>Assistente</span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Empresa :</h6>
+                            <span>Live University</span><br>
+                        </div>
+
+                        <div class="col s3 content-button">
+                            <a class="waves-effect waves-light btn-small btn-info">Abrir</a>
+                            <a class="waves-effect waves-light btn-small btn-danger">Remover</a>
+                        </div>
+
+                    </li>
+                    <li class="collection-item avatar curso">
+
+                        <div class="col s3">
+                            <h6 class="title-curso">Paula Mayumi</h6>
+                            <span>paula.konno@febracorp.org.br </span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Cargo :</h6>
+                            <span>Assistente</span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Empresa :</h6>
+                            <span>Live University</span><br>
+                        </div>
+
+                        <div class="col s3 content-button">
+                            <a class="waves-effect waves-light btn-small btn-info">Abrir</a>
+                            <a class="waves-effect waves-light btn-small btn-danger">Remover</a>
+                        </div>
+
+                    </li>
+                    <li class="collection-item avatar curso">
+
+                        <div class="col s3">
+                            <h6 class="title-curso">Paula Mayumi</h6>
+                            <span>paula.konno@febracorp.org.br </span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Cargo :</h6>
+                            <span>Assistente</span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Empresa :</h6>
+                            <span>Live University</span><br>
+                        </div>
+
+                        <div class="col s3 content-button">
+                            <a class="waves-effect waves-light btn-small btn-info">Abrir</a>
+                            <a class="waves-effect waves-light btn-small btn-danger">Remover</a>
+                        </div>
+
+                    </li>
+                    <li class="collection-item avatar curso">
+
+                        <div class="col s3">
+                            <h6 class="title-curso">Paula Mayumi</h6>
+                            <span>paula.konno@febracorp.org.br </span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Cargo :</h6>
+                            <span>Assistente</span><br>
+                        </div>
+
+                        <div class="col s3" style="margin-left: 2em">
+                            <h6 class="title-curso">Empresa :</h6>
+                            <span>Live University</span><br>
+                        </div>
+
+                        <div class="col s3 content-button">
+                            <a class="waves-effect waves-light btn-small btn-info">Abrir</a>
+                            <a class="waves-effect waves-light btn-small btn-danger">Remover</a>
+                        </div>
+
+                    </li>
+            </ul>
+
+            <!--   Icon Section   -->
+            <div class="row">
+
+            </div>
+
+        </div>
+        <br><br>
+    </div>
+
+
+    <footer class="page-footer  footer-copyright orange">
+
+        <div class="footer-copyright">
+            <div class="container">
+                Feito por <a class="orange-text text-lighten-3" href="https://github.com/MelisseCabral">Melisse Cabral</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body>
+</html>

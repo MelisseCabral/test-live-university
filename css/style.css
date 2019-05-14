@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: 'blommer';
+    src: url('../fonts/bloomer.otf');
+}
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('../fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: 'SoleiLight';
+    src: url('../fonts/SoleiLight.woff');
+}
+body{
+    font-family: 'SoleiLight';
+}
+h6{
+    font-family: CaviarDreams;
+}
+h4{
+    font-family: CaviarDreams;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.title-curso{
+    font-weight: bold;
+}
+.subtitle-curso{
+    font-family: 'SoleiLight';
+}
+.date-content{
+    width: 5em;
+    text-align: center;
+    margin-top: 0.5em;
+    color: #FFC107;
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'blommer' !important;
+}
+.curso{
+    display: -webkit-inline-flex;
+    width: 100%;
+}
+
+.search{
+    position: absolute !important;
+    right: 14em !important;
+}
+.content-cursos{
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.openCurso{
+    background-color: transparent;
+    border: 1px solid #781866;
+    border-radius: 25px;
+    color: #781866;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover{
+    background-color: #781866 !important;
+    color: #fff;
+}
+
+.btn-danger{
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: red;
+}
+.btn-danger:hover{
+    background-color: red !important;
+    border: 1px solid red !important;
+    border-radius: 25px;
+    color: #FFF;
+}
+.btn-warning{
+    background-color: transparent;
+    border: 1px solid #FFC107;
+    border-radius: 25px;
+    color: #FFC107;
+}
+.btn-warning:hover{
+    background-color: #FFC107 !important;
+    border: 1px solid #FFC107 !important;
+    border-radius: 25px;
+    color: #FFF;
+}
+.btn-info{
+    background-color: transparent;
+    border: 1px solid #3498db;
+    border-radius: 25px;
+    color: #3498db;
+}
+.btn-info:hover{
+    background-color: #3498db !important;
+    border: 1px solid #3498db !important;
+    border-radius: 25px;
+    color: #FFF;
+}
+
+.content-button{
+    position: absolute;
+    right: 2em;
+    margin-top: 1.5em;
+
+}
+
+.transform {
+    visibility: collapse;
+    height: 0;
+    padding-left: 3em;
+    background-color: #ecf0f1;
+    padding-top: 1em;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.transform-active {
+    visibility: visible !important;
+    position: relative;
+    top: auto;
+    height: 20em;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
